@@ -17,6 +17,7 @@ public class Comparadora {
         }
     }
 
+
     public int fib_list(int n){
 
         ArrayList<Integer>contenedor;
@@ -44,19 +45,20 @@ public class Comparadora {
 
         Comparadora com = new Comparadora();
 
-        int prueba =10;
+        
 
-        //Array de los n valores fibonacci.
+        int prueba =10;
+       // Array de los 3,5,7 y 10 n valores fibonacci.
         ArrayList<Integer>probador;
         probador=new ArrayList<Integer>();
 
         // generacion de la serie recursivamente
-//
+
 //        for (int i = 0; i < prueba; i++) {
 //
 //            probador.add(i,com.fib_recurs(i));
 //
-//            System.out.println(" el valor recursivo de la serie fibonacci para n = " + i + " es " + probador.get(i)+"\n");
+//            System.out.println(" el valor recursivo de la serie fibonacci para n = " + i + " es " + probador.get(i));
 //        }
 
         // generacion de la serie mediante lista
@@ -65,7 +67,7 @@ public class Comparadora {
 
             probador.add(i,com.fib_list(i));
 
-            System.out.println(" el valor usando una lista de la serie fibonacci para n = " + i + " es " + probador.get(i)+"\n");
+            System.out.println(" el valor usando una lista de la serie fibonacci para n = " + i + " es " + probador.get(i));
         }
 
 
