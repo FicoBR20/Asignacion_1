@@ -1,7 +1,16 @@
 import java.util.ArrayList;
+/**
+ * Clase que implementa la serie fibonacci
+ * de dos maneras distintas.
+ * Profesor: John Alexander Vargas
+ * Universidad del Valle
+ * Alumno: Federico Barbetti Ruiz
+ * Codigo: 2181247-2724
+ * Octubre 17 de 2023
+ *
+ */
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
+
 public class Comparadora {
 
     public int fib_recurs(int n){
